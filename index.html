@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio1.2</title>
+    <link rel="stylesheet" href="portfolio1.2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="pictuers/icon3.jpg">
+</head>
+<body>
+    
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#introduction">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#about_me">About-me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#my_projects">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+   
+    <section id="introduction" class="position-relative text-white">
+          <!-- Background image -->
+     <img src="pictuers/background3.jpg"
+          class="w-100 h-100 position-absolute top-0 start-0 object-fit-cover"
+          alt="photo"
+          style="z-index: -1;" />
+
+          <!-- Optional dark overlay -->
+         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50" style="z-index: -1;"></div>
+
+          <!-- Content container -->
+         <div class="container h-100 position-relative">
+
+          <!-- Text block: left-center on lg+, center on small -->
+          <div class="d-flex flex-column justify-content-center h-100 text-center text-lg-start">
+            <div class="mb-5">
+              <h1 class="display-3 fw-bold">Ramdane Mohamed Amine</h1>
+              <h3 class="mb-4">Full Stack Developer</h3>
+            </div>
+          </div>
+
+          <!-- Social icons: bottom-left on lg+, bottom-center on small -->
+          <ul class="list-unstyled d-flex gap-3 fs-3 position-absolute bottom-0 mb-4 ms-lg-3 ms-0 ps-lg-0 ps-3 start-50 start-lg-0 translate-middle-x translate-middle-x-lg-0">
+            <li><a href="#" class="text-white"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="#" class="text-white"><i class="bi bi-linkedin"></i></a></li>
+            <li><a href="#" class="text-white"><i class="bi bi-envelope"></i></a></li>
+            <li><a href="#" class="text-white"><i class="bi bi-whatsapp"></i></a></li>
+            <li><a href="#" class="text-white"><i class="bi bi-github"></i></a></li>
+          </ul>
+    
+        </div>
+    </section>
+
+
+
+<section id="about_me" class="position-relative" style="background-color: #111; min-height: 100vh;">
+
+  <!-- Background Image for Small Screens -->
+  <div class="d-lg-none position-absolute top-0 start-0 w-100 h-100" style="
+      background-image: url('pictuers/me_portfolio.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 0.3;
+      z-index: 1;">
+  </div>
+
+  <!-- Content Container -->
+  <div class="container position-relative z-2 py-5">
+    <div class="row align-items-center min-vh-100">
+
+      <!-- Text Section -->
+      <div class="col-12 col-lg-6 text-white text-center text-lg-start px-4">
+        <h1 class="display-4 fw-bold mb-3">ABOUT ME</h1>
+        <h5 class="mb-4 fw-light">mohamine95ram@gmail.com</h5>
+        <p class="lead fs-6">
+          I am a Full Stack Developer with a passion for creating dynamic and responsive web applications. I have experience in both front-end and back-end development, allowing me to build complete solutions that meet user needs.
+        </p>
+      </div>
+
+      <!-- Image on Right (Large Screens Only) -->
+      <div class="d-none d-lg-block col-lg-6">
+        <img src="pictuers/me_portfolio.png" alt="photo" class="img-fluid w-100 h-auto" style="object-fit: contain; max-height: 80vh;" />
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="my_projects" 
+         class="text-white py-5 position-relative" 
+         style="min-height: 100vh; background-image: url('pictuers/desk1.jpg'); 
+                background-size: cover; 
+                background-position: center; 
+                background-repeat: no-repeat; 
+                background-attachment: fixed;">
+  
+  <!-- Dark Overlay for readability -->
+  <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" 
+       style="opacity: 0.6; z-index: 0;"></div>
+
+  <!-- Content -->
+  <div class="container position-relative" style="z-index: 1;">
+    
+    <!-- Section Title -->
+    <div class="text-center mb-5">
+      <h1 class="display-4 fw-bold text-white">My Skills</h1>
+      <p class="lead text-light">Here’s what I can do and what I’ve worked with</p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+
+      
+
+      <!-- Languages -->
+      <div class="col">
+        <h3 class="fw-bold mb-3">Languages</h3>
+        <ul class="list-unstyled">
+          <li><i class="fas fa-language me-2"></i>English</li>
+          <li><i class="fas fa-language me-2"></i>Arabic</li>
+          <li><i class="fas fa-language me-2"></i>French</li>
+        </ul>
+      </div>
+
+      <!-- Software Skills -->
+      <div class="col">
+        <h3 class="fw-bold mb-3">Software Skills</h3>
+        <ul class="list-unstyled">
+          <li><i class="fab fa-html5 text-danger me-2"></i>HTML</li>
+          <li><i class="fab fa-css3-alt text-primary me-2"></i>CSS</li>
+          <li><i class="fab fa-js text-warning me-2"></i>JavaScript</li>
+          <li><i class="fab fa-java text-light me-2"></i>Java</li>
+          <li><i class="fab fa-php text-info me-2"></i>PHP</li>
+          <li><i class="fas fa-database text-white me-2"></i>SQL</li>
+          <li><i class="fab fa-android text-success me-2"></i>Flutter</li>
+          <li><i class="fas fa-code text-light me-2"></i>Dart</li>
+          <li><i class="fab fa-bootstrap text-purple me-2"></i>Bootstrap</li>
+        </ul>
+      </div>
+
+      <!-- What I Can Do -->
+      <div class="col">
+        <h3 class="fw-bold mb-3">What I Can Do</h3>
+        <p>
+          Website development, mobile apps (iOS & Android), desktop applications, and UI design.
+        </p>
+      </div>
+
+      <!-- Hobbies & Interests -->
+      <div class="col">
+        <h3 class="fw-bold mb-3">Hobbies & Interests</h3>
+        <ul class="list-unstyled">
+          <li><i class="fas fa-plane-departure me-2"></i>Traveling</li>
+          <li><i class="fas fa-film me-2"></i>Movies</li>
+          <li><i class="fas fa-book me-2"></i>Reading</li>
+        </ul>
+      </div>
+
+      <!-- Education -->
+      <div class="col">
+        <h3 class="fw-bold mb-3">Education</h3>
+        <p>
+          Bachelor's in Information Systems Engineering and Software, Computer Science.
+          <br>
+          University of Boumerdes (UMBB)
+        </p>
+      </div>
+
+      <!-- Experience -->
+      <div class="col">
+        <h3 class="fw-bold mb-3">Experience</h3>
+        <ul class="list-unstyled">
+          <li><i class="fas fa-globe me-2"></i>E-commerce Website</li>
+          <li><i class="fas fa-suitcase-rolling me-2"></i>Travel Agency Platform</li>
+          <li><i class="fas fa-university me-2"></i>University Website</li>
+          <li><i class="fas fa-prescription-bottle-alt me-2"></i>Pharmacy App</li>
+          <li><i class="fas fa-car me-2"></i>Car Rental App</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="bg-dark text-white mt-0" id="contact">
+  <div class="container py-4 text-center">
+    <p class="mb-1">© 2025 Ramdane Mohamed Amine. All rights reserved.</p>
+    <p class="mb-2">Connect with me:</p>
+
+    <div class="social-links d-flex justify-content-center gap-4 mb-3">
+      <a href="https://www.facebook.com/Amine.16.ram.net/" target="_blank" aria-label="Facebook" class="text-white fs-5">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://instagram.com/am.ine_ram" target="_blank" aria-label="Instagram" class="text-white fs-5">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <!-- <a href="https://x.com" target="_blank" aria-label="X (Twitter)" class="text-white fs-5">
+        <i class="fab fa-x-twitter"></i>
+      </a> -->
+      <a href="https://linkedin.com/in/mohamed-amine-ramdane-31806727a" target="_blank" aria-label="LinkedIn" class="text-white fs-5">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/moh-amine" target="_blank" aria-label="GitHub" class="text-white fs-5">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="mailto:mohamine95ram@gmail.com@example.com" aria-label="Email" class="text-white fs-5">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+
+    <p class="small mb-0">Feel free to reach out for collaborations, projects, or just to say hello!</p>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</body>
+</html>
